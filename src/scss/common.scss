@@ -15,7 +15,7 @@
 		line-height: 43px;
 	}
 	@media(max-width: 600px) {
-		font-size: 22px;
+		font-size: 20px;
 		line-height: 33px;
 	}
 }
@@ -149,7 +149,7 @@
 .title {
 	padding-top: 20px;
 		@media(max-width: 750px) {
-			padding-top: 10px;
+			padding-top: 16px;
 		}
 		position: relative;
 		&:after {
@@ -162,8 +162,8 @@
 			height: 5px;
 			background-color: #e45a5a;
 			@media(max-width: 800px) {
-				height: 3px;
-				width: 70px;
+				height: 5px;
+				width: 120px;
 			}
 		}
 }
