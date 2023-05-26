@@ -46,6 +46,9 @@
 		max-width: 870px;
 		position: relative;
 		z-index: 2;
+		@media(max-width: 450px) {
+			max-width: 315px;
+		}
 	}
 
 	&__text {
@@ -163,7 +166,7 @@
 			}
 			@media(max-width: 450px) {
 				right: -28%;
-				top: 0%;
+				top: -1%;
 			}
 		}
 		&:last-child {
@@ -186,7 +189,7 @@
 				bottom: 60%;
 			}
 			@media(max-width: 450px) {
-				bottom: 44%;
+				bottom: 42.5%;
 			}
 		}
 	}
@@ -817,7 +820,7 @@
 		margin-right: -30px;
 		transform: rotate(180deg);
 		@media(max-width: 1300px) {
-			@include adaptiveValue("margin-right", -20, 5, $containerWidth, $minWidth, 1);
+			@include adaptiveValue("margin-right", -20, 15, $containerWidth, $minWidth, 1);
 		}
 	}
 }
